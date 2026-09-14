@@ -28,7 +28,7 @@ public class LabsshopHomeTest extends LabsshopBaseClass {
 	public void logoname() {
 		
 		String actualText=hp.getlogoname();
-		Assert.assertEquals(actualText,"QA Automation Labs");
+		Assert.assertEquals(actualText,"QA Automation Labsshop");
 		
 	}
 	

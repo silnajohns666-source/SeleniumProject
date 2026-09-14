@@ -127,7 +127,7 @@ public class LabsshopBaseClass {
 		// TODO Auto-generated method stub
 		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String destination="./Screenshot/"+screenshotname +".jpeg";
+		String destination="./Screenshots/"+screenshotname +".jpeg";
 		FileHandler.copy(src,new File(destination));
 		return destination;
 	}

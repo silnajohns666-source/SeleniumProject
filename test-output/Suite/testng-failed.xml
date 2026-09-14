@@ -3,16 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="utility.Datadriven">
+      <class name="com.labsshop.test.LabsshopHomeTest">
         <methods>
           <include name="method"/>
           <include name="teardown"/>
-          <include name="setup"/>
+          <include name="logoname"/>
           <include name="SetUp"/>
-          <include name="loginTest"/>
           <include name="browserclose"/>
         </methods>
-      </class> <!-- utility.Datadriven -->
+      </class> <!-- com.labsshop.test.LabsshopHomeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
