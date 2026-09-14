@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 13 00:27:26 PDT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>112 seconds (112357 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.labsshop.test.LabsshopRegisterTest.form()'><b>form</b><br>Test class: com.labsshop.test.LabsshopRegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.labsshop.test.LabsshopRegisterTest@7d8704ef</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCartTest.cartbutton()'><b>cartbutton</b><br>Test class: com.labsshop.test.LabsshopCartTest</td>
+<td></td>
+<td>1</td>
+<td>com.labsshop.test.LabsshopCartTest@79d8407f</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopLoginTest.login()'><b>login</b><br>Test class: com.labsshop.test.LabsshopLoginTest</td>
+<td></td>
+<td>9</td>
+<td>com.labsshop.test.LabsshopLoginTest@13b6aecc</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopRegisterTest.pw()'><b>pw</b><br>Test class: com.labsshop.test.LabsshopRegisterTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopRegisterTest@7d8704ef</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCheckoutTest.msg()'><b>msg</b><br>Test class: com.labsshop.test.LabsshopCheckoutTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopCheckoutTest@5fbe4146</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCheckoutTest.shop()'><b>shop</b><br>Test class: com.labsshop.test.LabsshopCheckoutTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopCheckoutTest@5fbe4146</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopRegisterTest.regbutton()'><b>regbutton</b><br>Test class: com.labsshop.test.LabsshopRegisterTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopRegisterTest@7d8704ef</td></tr>
+<tr>
+<td title='utility.Datadriven.loginTest()'><b>loginTest</b><br>Test class: utility.Datadriven<br>Parameters: silnajohns@gmail.com, 123456</td>
+<td></td>
+<td>1</td>
+<td>utility.Datadriven@305b7c14</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopProductTest.addcartbtn()'><b>addcartbtn</b><br>Test class: com.labsshop.test.LabsshopProductTest</td>
+<td></td>
+<td>3</td>
+<td>com.labsshop.test.LabsshopProductTest@3c3d9b6b</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopHomeTest.goback()'><b>goback</b><br>Test class: com.labsshop.test.LabsshopHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopHomeTest@158a8276</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopHomeTest.shopnowbtn()'><b>shopnowbtn</b><br>Test class: com.labsshop.test.LabsshopHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopHomeTest@158a8276</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopHomeTest.linkcount()'><b>linkcount</b><br>Test class: com.labsshop.test.LabsshopHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopHomeTest@158a8276</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopHomeTest.logoname()'><b>logoname</b><br>Test class: com.labsshop.test.LabsshopHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopHomeTest@158a8276</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopProductTest.filter1()'><b>filter1</b><br>Test class: com.labsshop.test.LabsshopProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopProductTest@3c3d9b6b</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCheckoutTest.orderbtn()'><b>orderbtn</b><br>Test class: com.labsshop.test.LabsshopCheckoutTest</td>
+<td></td>
+<td>7</td>
+<td>com.labsshop.test.LabsshopCheckoutTest@5fbe4146</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopProductTest.filter2()'><b>filter2</b><br>Test class: com.labsshop.test.LabsshopProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopProductTest@3c3d9b6b</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCartTest.Totalamount()'><b>Totalamount</b><br>Test class: com.labsshop.test.LabsshopCartTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopCartTest@79d8407f</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopHomeTest.shopelectrnow()'><b>shopelectrnow</b><br>Test class: com.labsshop.test.LabsshopHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopHomeTest@158a8276</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopProductTest.dropdown()'><b>dropdown</b><br>Test class: com.labsshop.test.LabsshopProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopProductTest@3c3d9b6b</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCheckoutTest.fieldvalues()'><b>fieldvalues</b><br>Test class: com.labsshop.test.LabsshopCheckoutTest</td>
+<td></td>
+<td>1</td>
+<td>com.labsshop.test.LabsshopCheckoutTest@5fbe4146</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCartTest.quantityup()'><b>quantityup</b><br>Test class: com.labsshop.test.LabsshopCartTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopCartTest@79d8407f</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCartTest.removebutton()'><b>removebutton</b><br>Test class: com.labsshop.test.LabsshopCartTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopCartTest@79d8407f</td></tr>
+<tr>
+<td title='utility.Datadriven.loginTest()'><b>loginTest</b><br>Test class: utility.Datadriven<br>Parameters: abc@gmail.com, abcd</td>
+<td></td>
+<td>0</td>
+<td>utility.Datadriven@305b7c14</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCartTest.checkoutbutton()'><b>checkoutbutton</b><br>Test class: com.labsshop.test.LabsshopCartTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopCartTest@79d8407f</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopRegisterTest.register()'><b>register</b><br>Test class: com.labsshop.test.LabsshopRegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.labsshop.test.LabsshopRegisterTest@7d8704ef</td></tr>
+<tr>
+<td title='utility.Datadriven.loginTest()'><b>loginTest</b><br>Test class: utility.Datadriven<br>Parameters: silna@gmail.com, silna</td>
+<td></td>
+<td>0</td>
+<td>utility.Datadriven@305b7c14</td></tr>
+<tr>
+<td title='com.labsshop.test.LabsshopCheckoutTest.next()'><b>next</b><br>Test class: com.labsshop.test.LabsshopCheckoutTest</td>
+<td></td>
+<td>0</td>
+<td>com.labsshop.test.LabsshopCheckoutTest@5fbe4146</td></tr>
+</table><p>
+</body>
+</html>
