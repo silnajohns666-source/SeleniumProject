@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="27" passed="26" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-14T08:25:12 GMT-07:00" name="Suite" finished-at="2026-09-14T08:27:13 GMT-07:00" duration-ms="120981">
+  <suite started-at="2026-09-14T22:20:03 GMT-07:00" name="Suite" finished-at="2026-09-14T22:22:07 GMT-07:00" duration-ms="123863">
     <groups>
     </groups>
-    <test started-at="2026-09-14T08:25:12 GMT-07:00" name="Test" finished-at="2026-09-14T08:27:13 GMT-07:00" duration-ms="120981">
+    <test started-at="2026-09-14T22:20:03 GMT-07:00" name="Test" finished-at="2026-09-14T22:22:07 GMT-07:00" duration-ms="123863">
       <class name="utility.Datadriven">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:25:12 GMT-07:00" name="SetUp" finished-at="2026-09-14T08:25:33 GMT-07:00" duration-ms="20801" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:20:03 GMT-07:00" name="SetUp" finished-at="2026-09-14T22:20:47 GMT-07:00" duration-ms="43120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:25:33 GMT-07:00" name="setup" finished-at="2026-09-14T08:26:07 GMT-07:00" depends-on-methods="com.labsshop.base.LabsshopBaseClass.SetUp" duration-ms="33577" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:20:47 GMT-07:00" name="setup" finished-at="2026-09-14T22:21:27 GMT-07:00" depends-on-methods="com.labsshop.base.LabsshopBaseClass.SetUp" duration-ms="40077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:26:20 GMT-07:00" name="method" finished-at="2026-09-14T08:26:20 GMT-07:00" duration-ms="439" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:21:40 GMT-07:00" name="method" finished-at="2026-09-14T22:21:41 GMT-07:00" duration-ms="1081" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:26:20 GMT-07:00" name="loginTest" data-provider="invalidloginData" finished-at="2026-09-14T08:26:25 GMT-07:00" duration-ms="4490" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:21:41 GMT-07:00" name="loginTest" data-provider="invalidloginData" finished-at="2026-09-14T22:21:42 GMT-07:00" duration-ms="1084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:26:25 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:25 GMT-07:00" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:21:42 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:42 GMT-07:00" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:26:25 GMT-07:00" name="method" finished-at="2026-09-14T08:26:25 GMT-07:00" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:21:42 GMT-07:00" name="method" finished-at="2026-09-14T22:21:42 GMT-07:00" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:26:25 GMT-07:00" name="loginTest" data-provider="invalidloginData" finished-at="2026-09-14T08:26:27 GMT-07:00" duration-ms="2531" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:21:42 GMT-07:00" name="loginTest" data-provider="invalidloginData" finished-at="2026-09-14T22:21:42 GMT-07:00" duration-ms="596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:26:27 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:27 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:21:42 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:42 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:26:27 GMT-07:00" name="method" finished-at="2026-09-14T08:26:27 GMT-07:00" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:21:42 GMT-07:00" name="method" finished-at="2026-09-14T22:21:42 GMT-07:00" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,7 +102,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:26:27 GMT-07:00" name="loginTest" data-provider="invalidloginData" finished-at="2026-09-14T08:26:28 GMT-07:00" duration-ms="546" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:21:42 GMT-07:00" name="loginTest" data-provider="invalidloginData" finished-at="2026-09-14T22:21:43 GMT-07:00" duration-ms="483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,7 +118,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:26:28 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:28 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:21:43 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:43 GMT-07:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,17 +129,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="close()[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:27:11 GMT-07:00" name="close" finished-at="2026-09-14T08:27:11 GMT-07:00" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:22:04 GMT-07:00" name="close" finished-at="2026-09-14T22:22:05 GMT-07:00" duration-ms="957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T08:27:11 GMT-07:00" name="teardown" finished-at="2026-09-14T08:27:13 GMT-07:00" depends-on-methods="utility.Datadriven.close" duration-ms="2032" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:utility.Datadriven@305b7c14]" started-at="2026-09-14T22:22:05 GMT-07:00" name="teardown" finished-at="2026-09-14T22:22:07 GMT-07:00" depends-on-methods="utility.Datadriven.close" duration-ms="1853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- utility.Datadriven -->
       <class name="com.labsshop.test.LabsshopProductTest">
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="method" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:58 GMT-07:00" name="method" finished-at="2026-09-14T22:21:58 GMT-07:00" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,11 +150,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="filter1()[pri:1, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="filter1" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="188" status="PASS">
+        <test-method signature="filter1()[pri:1, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:58 GMT-07:00" name="filter1" finished-at="2026-09-14T22:21:58 GMT-07:00" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filter1 -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:58 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:58 GMT-07:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="method" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:58 GMT-07:00" name="method" finished-at="2026-09-14T22:21:58 GMT-07:00" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,11 +176,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="filter2()[pri:2, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="filter2" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="254" status="PASS">
+        <test-method signature="filter2()[pri:2, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:58 GMT-07:00" name="filter2" finished-at="2026-09-14T22:21:59 GMT-07:00" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filter2 -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:59 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:59 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="method" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:59 GMT-07:00" name="method" finished-at="2026-09-14T22:21:59 GMT-07:00" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,11 +202,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="dropdown()[pri:3, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="dropdown" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="356" status="PASS">
+        <test-method signature="dropdown()[pri:3, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:59 GMT-07:00" name="dropdown" finished-at="2026-09-14T22:21:59 GMT-07:00" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropdown -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:59 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:59 GMT-07:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -217,7 +217,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="method" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:59 GMT-07:00" name="method" finished-at="2026-09-14T22:21:59 GMT-07:00" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -228,11 +228,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="addcartbtn()[pri:4, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:26:59 GMT-07:00" name="addcartbtn" finished-at="2026-09-14T08:27:00 GMT-07:00" duration-ms="201" status="PASS">
+        <test-method signature="addcartbtn()[pri:4, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:21:59 GMT-07:00" name="addcartbtn" finished-at="2026-09-14T22:22:00 GMT-07:00" duration-ms="524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addcartbtn -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T08:27:00 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:00 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopProductTest@3c3d9b6b]" started-at="2026-09-14T22:22:00 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:00 GMT-07:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,7 +245,7 @@
         </test-method> <!-- browserclose -->
       </class> <!-- com.labsshop.test.LabsshopProductTest -->
       <class name="com.labsshop.test.LabsshopHomeTest">
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:47 GMT-07:00" name="method" finished-at="2026-09-14T08:26:47 GMT-07:00" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:48 GMT-07:00" name="method" finished-at="2026-09-14T22:21:48 GMT-07:00" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -256,11 +256,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="shopnowbtn()[pri:1, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:47 GMT-07:00" name="shopnowbtn" finished-at="2026-09-14T08:26:53 GMT-07:00" duration-ms="5824" status="PASS">
+        <test-method signature="shopnowbtn()[pri:1, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:48 GMT-07:00" name="shopnowbtn" finished-at="2026-09-14T22:21:49 GMT-07:00" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopnowbtn -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:53 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:53 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:49 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:49 GMT-07:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -271,7 +271,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:53 GMT-07:00" name="method" finished-at="2026-09-14T08:26:53 GMT-07:00" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:49 GMT-07:00" name="method" finished-at="2026-09-14T22:21:49 GMT-07:00" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,11 +282,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="goback()[pri:2, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:53 GMT-07:00" name="goback" finished-at="2026-09-14T08:26:54 GMT-07:00" duration-ms="1060" status="PASS">
+        <test-method signature="goback()[pri:2, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:49 GMT-07:00" name="goback" finished-at="2026-09-14T22:21:50 GMT-07:00" duration-ms="1894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goback -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:54 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:54 GMT-07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:50 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:50 GMT-07:00" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -297,7 +297,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:54 GMT-07:00" name="method" finished-at="2026-09-14T08:26:54 GMT-07:00" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:50 GMT-07:00" name="method" finished-at="2026-09-14T22:21:50 GMT-07:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -308,11 +308,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="linkcount()[pri:3, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:54 GMT-07:00" name="linkcount" finished-at="2026-09-14T08:26:56 GMT-07:00" duration-ms="1308" status="PASS">
+        <test-method signature="linkcount()[pri:3, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:50 GMT-07:00" name="linkcount" finished-at="2026-09-14T22:21:51 GMT-07:00" duration-ms="835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- linkcount -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:56 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:56 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:51 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:51 GMT-07:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -323,7 +323,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:56 GMT-07:00" name="method" finished-at="2026-09-14T08:26:56 GMT-07:00" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:51 GMT-07:00" name="method" finished-at="2026-09-14T22:21:51 GMT-07:00" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -334,7 +334,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="logoname()[pri:4, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:56 GMT-07:00" name="logoname" finished-at="2026-09-14T08:26:56 GMT-07:00" duration-ms="494" status="FAIL">
+        <test-method signature="logoname()[pri:4, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:51 GMT-07:00" name="logoname" finished-at="2026-09-14T22:21:53 GMT-07:00" duration-ms="1428" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [QA Automation Labsshop] but found [QA Automation Labs]]]>
@@ -380,7 +380,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoname -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:56 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:58 GMT-07:00" duration-ms="1286" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:53 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:58 GMT-07:00" duration-ms="4571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -391,7 +391,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:58 GMT-07:00" name="method" finished-at="2026-09-14T08:26:58 GMT-07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:58 GMT-07:00" name="method" finished-at="2026-09-14T22:21:58 GMT-07:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -402,11 +402,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="shopelectrnow()[pri:5, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:58 GMT-07:00" name="shopelectrnow" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="1019" status="PASS">
+        <test-method signature="shopelectrnow()[pri:5, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:58 GMT-07:00" name="shopelectrnow" finished-at="2026-09-14T22:21:58 GMT-07:00" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopelectrnow -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T08:26:59 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:59 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopHomeTest@158a8276]" started-at="2026-09-14T22:21:58 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:58 GMT-07:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -419,7 +419,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- browserclose -->
       </class> <!-- com.labsshop.test.LabsshopHomeTest -->
       <class name="com.labsshop.test.LabsshopCheckoutTest">
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:03 GMT-07:00" name="method" finished-at="2026-09-14T08:27:03 GMT-07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:01 GMT-07:00" name="method" finished-at="2026-09-14T22:22:01 GMT-07:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -430,11 +430,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="fieldvalues()[pri:1, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:03 GMT-07:00" name="fieldvalues" finished-at="2026-09-14T08:27:05 GMT-07:00" duration-ms="2202" status="PASS">
+        <test-method signature="fieldvalues()[pri:1, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:01 GMT-07:00" name="fieldvalues" finished-at="2026-09-14T22:22:02 GMT-07:00" duration-ms="1077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fieldvalues -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:05 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:05 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:02 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:02 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -445,7 +445,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:05 GMT-07:00" name="method" finished-at="2026-09-14T08:27:05 GMT-07:00" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:02 GMT-07:00" name="method" finished-at="2026-09-14T22:22:02 GMT-07:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -456,11 +456,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="next()[pri:2, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:05 GMT-07:00" name="next" finished-at="2026-09-14T08:27:06 GMT-07:00" duration-ms="856" status="PASS">
+        <test-method signature="next()[pri:2, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:02 GMT-07:00" name="next" finished-at="2026-09-14T22:22:03 GMT-07:00" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- next -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:06 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:06 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:03 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:03 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -471,7 +471,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:06 GMT-07:00" name="method" finished-at="2026-09-14T08:27:06 GMT-07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:03 GMT-07:00" name="method" finished-at="2026-09-14T22:22:03 GMT-07:00" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -482,11 +482,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="orderbtn()[pri:3, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:06 GMT-07:00" name="orderbtn" finished-at="2026-09-14T08:27:09 GMT-07:00" duration-ms="3139" status="PASS">
+        <test-method signature="orderbtn()[pri:3, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:03 GMT-07:00" name="orderbtn" finished-at="2026-09-14T22:22:03 GMT-07:00" duration-ms="706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderbtn -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:09 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:09 GMT-07:00" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:03 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:03 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -497,7 +497,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:09 GMT-07:00" name="method" finished-at="2026-09-14T08:27:09 GMT-07:00" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:03 GMT-07:00" name="method" finished-at="2026-09-14T22:22:03 GMT-07:00" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -508,11 +508,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="msg()[pri:4, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:09 GMT-07:00" name="msg" finished-at="2026-09-14T08:27:09 GMT-07:00" duration-ms="74" status="PASS">
+        <test-method signature="msg()[pri:4, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:03 GMT-07:00" name="msg" finished-at="2026-09-14T22:22:04 GMT-07:00" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- msg -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:09 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:09 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:04 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:04 GMT-07:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -523,7 +523,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:09 GMT-07:00" name="method" finished-at="2026-09-14T08:27:09 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:04 GMT-07:00" name="method" finished-at="2026-09-14T22:22:04 GMT-07:00" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -534,11 +534,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="shop()[pri:5, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:09 GMT-07:00" name="shop" finished-at="2026-09-14T08:27:11 GMT-07:00" duration-ms="1413" status="PASS">
+        <test-method signature="shop()[pri:5, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:04 GMT-07:00" name="shop" finished-at="2026-09-14T22:22:04 GMT-07:00" duration-ms="903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shop -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T08:27:11 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:11 GMT-07:00" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCheckoutTest@5fbe4146]" started-at="2026-09-14T22:22:04 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:04 GMT-07:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -551,7 +551,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- browserclose -->
       </class> <!-- com.labsshop.test.LabsshopCheckoutTest -->
       <class name="com.labsshop.test.LabsshopLoginTest">
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopLoginTest@13b6aecc]" started-at="2026-09-14T08:26:44 GMT-07:00" name="method" finished-at="2026-09-14T08:26:44 GMT-07:00" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopLoginTest@13b6aecc]" started-at="2026-09-14T22:21:45 GMT-07:00" name="method" finished-at="2026-09-14T22:21:45 GMT-07:00" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -562,11 +562,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="login()[pri:1, instance:com.labsshop.test.LabsshopLoginTest@13b6aecc]" started-at="2026-09-14T08:26:44 GMT-07:00" name="login" finished-at="2026-09-14T08:26:47 GMT-07:00" duration-ms="3462" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.labsshop.test.LabsshopLoginTest@13b6aecc]" started-at="2026-09-14T22:21:45 GMT-07:00" name="login" finished-at="2026-09-14T22:21:48 GMT-07:00" duration-ms="2833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopLoginTest@13b6aecc]" started-at="2026-09-14T08:26:47 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:47 GMT-07:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopLoginTest@13b6aecc]" started-at="2026-09-14T22:21:48 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:48 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -579,7 +579,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- browserclose -->
       </class> <!-- com.labsshop.test.LabsshopLoginTest -->
       <class name="com.labsshop.test.LabsshopCartTest">
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:00 GMT-07:00" name="method" finished-at="2026-09-14T08:27:00 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:00 GMT-07:00" name="method" finished-at="2026-09-14T22:22:00 GMT-07:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -590,11 +590,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="cartbutton()[pri:1, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:00 GMT-07:00" name="cartbutton" finished-at="2026-09-14T08:27:01 GMT-07:00" duration-ms="1047" status="PASS">
+        <test-method signature="cartbutton()[pri:1, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:00 GMT-07:00" name="cartbutton" finished-at="2026-09-14T22:22:00 GMT-07:00" duration-ms="704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartbutton -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:01 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:01 GMT-07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:00 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:00 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -605,7 +605,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:01 GMT-07:00" name="method" finished-at="2026-09-14T08:27:01 GMT-07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:00 GMT-07:00" name="method" finished-at="2026-09-14T22:22:00 GMT-07:00" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -616,11 +616,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="removebutton()[pri:2, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:01 GMT-07:00" name="removebutton" finished-at="2026-09-14T08:27:01 GMT-07:00" duration-ms="119" status="PASS">
+        <test-method signature="removebutton()[pri:2, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:00 GMT-07:00" name="removebutton" finished-at="2026-09-14T22:22:00 GMT-07:00" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removebutton -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:01 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:01 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:00 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:00 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -631,7 +631,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:01 GMT-07:00" name="method" finished-at="2026-09-14T08:27:01 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:00 GMT-07:00" name="method" finished-at="2026-09-14T22:22:00 GMT-07:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -642,11 +642,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="quantityup()[pri:3, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:01 GMT-07:00" name="quantityup" finished-at="2026-09-14T08:27:02 GMT-07:00" duration-ms="1269" status="PASS">
+        <test-method signature="quantityup()[pri:3, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:00 GMT-07:00" name="quantityup" finished-at="2026-09-14T22:22:01 GMT-07:00" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quantityup -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:02 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:02 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:01 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:01 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -657,7 +657,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:02 GMT-07:00" name="method" finished-at="2026-09-14T08:27:02 GMT-07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:01 GMT-07:00" name="method" finished-at="2026-09-14T22:22:01 GMT-07:00" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -668,11 +668,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="Totalamount()[pri:4, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:02 GMT-07:00" name="Totalamount" finished-at="2026-09-14T08:27:02 GMT-07:00" duration-ms="264" status="PASS">
+        <test-method signature="Totalamount()[pri:4, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:01 GMT-07:00" name="Totalamount" finished-at="2026-09-14T22:22:01 GMT-07:00" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Totalamount -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:02 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:02 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:01 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:01 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -683,7 +683,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:02 GMT-07:00" name="method" finished-at="2026-09-14T08:27:02 GMT-07:00" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:01 GMT-07:00" name="method" finished-at="2026-09-14T22:22:01 GMT-07:00" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -694,11 +694,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="checkoutbutton()[pri:5, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:02 GMT-07:00" name="checkoutbutton" finished-at="2026-09-14T08:27:03 GMT-07:00" duration-ms="764" status="PASS">
+        <test-method signature="checkoutbutton()[pri:5, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:01 GMT-07:00" name="checkoutbutton" finished-at="2026-09-14T22:22:01 GMT-07:00" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutbutton -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T08:27:03 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:27:03 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopCartTest@79d8407f]" started-at="2026-09-14T22:22:01 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:22:01 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -711,7 +711,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- browserclose -->
       </class> <!-- com.labsshop.test.LabsshopCartTest -->
       <class name="com.labsshop.test.LabsshopRegisterTest">
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:28 GMT-07:00" name="method" finished-at="2026-09-14T08:26:28 GMT-07:00" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:43 GMT-07:00" name="method" finished-at="2026-09-14T22:21:43 GMT-07:00" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -722,11 +722,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="register()[pri:1, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:28 GMT-07:00" name="register" finished-at="2026-09-14T08:26:41 GMT-07:00" duration-ms="12758" status="PASS">
+        <test-method signature="register()[pri:1, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:43 GMT-07:00" name="register" finished-at="2026-09-14T22:21:44 GMT-07:00" duration-ms="735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:41 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:41 GMT-07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:44 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:44 GMT-07:00" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -737,7 +737,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:41 GMT-07:00" name="method" finished-at="2026-09-14T08:26:41 GMT-07:00" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:44 GMT-07:00" name="method" finished-at="2026-09-14T22:21:44 GMT-07:00" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -748,11 +748,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="form()[pri:2, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:41 GMT-07:00" name="form" finished-at="2026-09-14T08:26:43 GMT-07:00" duration-ms="2111" status="PASS">
+        <test-method signature="form()[pri:2, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:44 GMT-07:00" name="form" finished-at="2026-09-14T22:21:45 GMT-07:00" duration-ms="1148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- form -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:43 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:43 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:45 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:45 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -763,7 +763,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:43 GMT-07:00" name="method" finished-at="2026-09-14T08:26:43 GMT-07:00" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:45 GMT-07:00" name="method" finished-at="2026-09-14T22:21:45 GMT-07:00" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -774,11 +774,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="pw()[pri:3, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:43 GMT-07:00" name="pw" finished-at="2026-09-14T08:26:44 GMT-07:00" duration-ms="846" status="PASS">
+        <test-method signature="pw()[pri:3, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:45 GMT-07:00" name="pw" finished-at="2026-09-14T22:21:45 GMT-07:00" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pw -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:44 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:44 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:45 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:45 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -789,7 +789,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:44 GMT-07:00" name="method" finished-at="2026-09-14T08:26:44 GMT-07:00" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:45 GMT-07:00" name="method" finished-at="2026-09-14T22:21:45 GMT-07:00" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -800,11 +800,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="regbutton()[pri:4, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:44 GMT-07:00" name="regbutton" finished-at="2026-09-14T08:26:44 GMT-07:00" duration-ms="190" status="PASS">
+        <test-method signature="regbutton()[pri:4, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:45 GMT-07:00" name="regbutton" finished-at="2026-09-14T22:21:45 GMT-07:00" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regbutton -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T08:26:44 GMT-07:00" name="browserclose" finished-at="2026-09-14T08:26:44 GMT-07:00" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:com.labsshop.test.LabsshopRegisterTest@7d8704ef]" started-at="2026-09-14T22:21:45 GMT-07:00" name="browserclose" finished-at="2026-09-14T22:21:45 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
